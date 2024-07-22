@@ -1,4 +1,4 @@
-package main
+package Easy
 
 import (
 	"fmt"
@@ -25,7 +25,7 @@ func Convert(number int) string {
 	return result
 }
 
-func main() {
+func test() {
 	// Test examples
 	fmt.Println(Convert(28)) // Output: Plong
 	fmt.Println(Convert(30)) // Output: PlingPlang
